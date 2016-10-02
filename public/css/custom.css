@@ -1,0 +1,340 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+body {
+    font-family: 'Raleway', sans-serif;
+}
+body .page-container .sidebar-menu {
+  background: #2490B6;
+  /*color: #084184;*/
+  color: red;
+}
+.page-container .sidebar-menu .logo-env {
+    background-color: #ffffff;
+    border-right: 1px solid #eeeeee;
+}
+
+body .page-container .sidebar-menu #main-menu li {
+  border-color: #2785A6;
+}
+body .page-container .sidebar-menu #main-menu li a {
+  color: #FFFFFF;
+}
+body .page-container .sidebar-menu #main-menu li.active > a {
+  background: #86c2d6;
+}
+body .page-container .sidebar-menu #main-menu li a:hover {
+  background-color: #86C2D6;
+}
+body .page-container .sidebar-menu #main-menu li ul > li > a {
+background-color: #1687AE;
+}
+body .page-container .sidebar-menu #main-menu li ul > li > a:hover {
+    background-color: #A8D2E6;
+}
+body .page-container .sidebar-menu #main-menu li ul > li {
+  border-color: #2490B6;
+}
+body .page-container.sidebar-collapsed .sidebar-menu #main-menu > li > a > span:not(.badge) {
+  background: #86c2d6;
+  border-color: #2490B6;
+}
+.search-results-env .search-bar .form-control + .input-group-btn {
+   border: none;
+}
+body .page-container .sidebar-menu #main-menu li#search {
+  background-color: #2490B6;
+  border-color: #2785A6;
+}
+body .page-container .sidebar-menu #main-menu li#search .search-input {
+  color: #FFFFFF;
+}
+body .page-container .sidebar-menu #main-menu li ul {
+  border-color: #2785A6;
+}
+body .login-container .login-header {
+    background-color: #ffffff;
+}
+
+body.login-page {
+    background: #2490B6;
+}
+
+body.login-page .login-form .form-group .input-group {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+body.login-page .login-form .form-group .input-group .input-group-addon:after {
+    background: none;
+}
+
+body.login-page .login-form .form-group .btn-login {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+body.login-page .login-form .form-group .btn-login:hover {
+    background: #FFFFFF;
+}
+
+body .login-container .login-header.login-caret:after {
+    border-top-color: #003471;
+    display: none;
+}
+body .btn-primary {
+  background: #2490B6;
+  border-color: #2785A6;
+}
+body .btn-primary:hover, body .btn-primary:focus, body .btn-primary:active, body .btn-primary.active, body .open .dropdown-toggle.btn-primary {
+    background: #0D6382;
+    border-color: #A8D2E6;
+}
+body .btn-default {
+    color: #f7f7f7;
+    background-color: #777777;
+    border-color: #f0f0f1;
+}
+body .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #303641;
+    background-color: #CACACA;
+    border-color: #d0d0d3;
+}
+body .badge.badge-default, body .label-default {
+    background-color: #777777;
+    color: #ffffff;
+}
+body .badge.badge-black, body .label-black {
+background-color: #303641;
+}
+.dropdown-menu.dropdown-primary {
+  background-color: #2490B6;
+  border-color: #2785A6;
+}
+.dropdown-menu.dropdown-primary > li:hover a {
+  background-color: #86c2d6;
+  color: #ffffff;
+}
+.dropdown-menu.dropdown-primary .divider, .dropdown-menu.dropdown-primary .divider:hover {
+  background-color: #86C2D6;
+}
+.page-container .sidebar-menu .logo-env {
+  padding-bottom: 20px;
+}
+body .page-container .sidebar-menu .logo-env > div.sidebar-collapse a, body .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
+  border-color: #86C2D6;
+}
+body .page-container .sidebar-menu .logo-env > div.sidebar-collapse a:hover {
+  background: #2490B6;
+}
+.btn-primary.dropdown-toggle {
+  border-left-color: #2785A6;
+}
+body .profile-info.dropdown .dropdown-menu {
+  background: #86C2D6;
+  border-color: #86C2D6;
+    color: #FFFFFF;
+}
+body .profile-info.dropdown .dropdown-menu li a {
+  color: #FFFFFF;
+}
+body .profile-info.dropdown .dropdown-menu li a:hover {
+  background: #86C2D6;
+}
+.login-page .login-form .form-group .btn-login i {
+    float: right;
+    margin-right: 35px;
+}
+.login-page .login-form .form-group .input-group .form-control {
+  color: #555555;
+}
+.add-supplier {
+    margin-top: 21px;
+}
+
+#username::-webkit-input-placeholder {
+    color: #8AADF7;
+}
+
+#password::-webkit-input-placeholder {
+    color: #8AADF7;
+}
+
+.inline-heading2 {
+    font-size: 25px;
+    font-width: bold;
+    margin-top: 17px;
+    margin-bottom: 8.5px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #373E4A;
+}
+
+.customer-selecter {
+    margin-left: 5px;
+    margin-bottom: 8.5px;
+}
+
+body.login-page p.description {
+    color: #666666;
+}
+
+div.flash {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    color: #1c3484;
+}
+
+div.searchbox {
+    margin-left: 30px
+}
+
+.btn-searchbox {
+    margin-left: -10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+body .navbar-inverse {
+    border-color: #003471;
+    background: #2E99FC;
+}
+
+.navbar-inverse .navbar-inner {
+    color: #bfccdb;
+    background: none;
+    background-color: #003471;
+    background-image: none;
+    border-color: #252525;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: #bfccdb;
+}
+
+.ms-container .ms-list {
+    width: 250px;
+    height: 250px;
+}
+
+.is-required .form-control {
+    border-color: #1672FC;
+}
+
+.is-required .help-block, .is-required .control-label, .is-required .radio, .is-required .checkbox, .is-required .radio-inline, .is-required .checkbox-inline {
+    color: #0054FF;
+}
+
+p.error-label {
+    margin-top: 5px;
+}
+
+table.request-details, table.request-details th, table.request-details td {
+    padding: 3px;
+}
+
+table.request-details {
+    margin-left: 5px;
+}
+body .pagination > .active > a, body .pagination > .active > span, body .pagination > .active > a:hover, body .pagination > .active > span:hover, body .pagination > .active > a:focus, body .pagination > .active > span:focus {
+  border-color: #2490B6;
+  background: #2490B6;
+}
+#username::-webkit-input-placeholder, #password::-webkit-input-placeholder, #email::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #2490B6;
+}
+#username:-moz-placeholder, #password:-moz-placeholder, #email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #2490B6;
+   opacity:  1;
+}
+#username::-moz-placeholder, #password::-moz-placeholder, #email::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #2490B6;
+   opacity:  1;
+}
+#username:-ms-input-placeholder, #password:-ms-input-placeholder, #email:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #2490B6;
+}
+#login_button, #password_reset_button, #change_password_button {
+    color: #2490B6;
+    text-indent: 35px;
+}
+
+
+select.select_filter {
+  display: block;
+  width: 100%;
+  height: 31px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -moz-transition: border-color ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+  -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+select.search_init.select_filter {
+    width: inherit;
+}
+
+blockquote#tracking-open {
+  background: #FFFFF9;
+}
+blockquote#tracking-closed {
+  background: #FDEBEB;
+}
+.price-margin.form-control[disabled], .price-margin.form-control[readonly] {
+    background: #FFFFFF !important;
+}
+
+h4.attachment-labels, h4.image-labels {
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+div.import-confirm p {
+    font-size: 1.2em;
+}
+.comment-history { background-color: #FFFFFF;padding: 15px;}
+/*.form-group.attribute-group {margin-bottom: 20px;}*/
+.comment-block h5 { font-size: 11px; line-height: 0px;}
+.comment-block hr { margin-top: 3px;}
+.comment-block div {margin-left: 7px;}
+.comment-block blockquote {margin-top: 6px; margin-bottom: 0px;}
+
+.imagewrap {margin-top: 10px;margin-left:20px;display:inline-block;position:relative;}
+.imagewrap button {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-color: white;
+    padding: 0;
+    line-height: 1;
+    border: 1px solid #E4E4E4;
+    padding: 2px;
+}
+.contracts-select-header {
+    background-color: #2490B6;
+    color: #fff;
+    min-height: 20px;
+    padding: 5px;
+}
+.product-details p {
+    font-size: .85em;
+}
+table.clear-text {
+    color:#666666;
+    font-family: arial, sans-serif;
+}
